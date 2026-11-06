@@ -1,0 +1,328 @@
+{
+  "title": "Figures · 科研绘图参考库",
+  "updated": "2026-11-06",
+  "history": [
+    {
+      "year": 1980,
+      "url": "https://icml.cc/Conferences/2009/past.html",
+      "archive_entry": "1 1980 Pittsburgh, Pennsylvania, USA",
+      "original_proceedings": null,
+      "figures": 0
+    },
+    {
+      "year": 1983,
+      "url": "https://icml.cc/Conferences/2009/past.html",
+      "archive_entry": "2 1983 Monticello, Illinois, USA",
+      "original_proceedings": null,
+      "figures": 0
+    },
+    {
+      "year": 1985,
+      "url": "https://icml.cc/Conferences/2009/past.html",
+      "archive_entry": "3 1985 Skytop, Pennsylvania, USA",
+      "original_proceedings": null,
+      "figures": 0
+    },
+    {
+      "year": 1987,
+      "url": "https://icml.cc/Conferences/2009/past.html",
+      "archive_entry": "4 1987 Irvine, California, USA",
+      "original_proceedings": null,
+      "figures": 0
+    },
+    {
+      "year": 1988,
+      "url": "https://icml.cc/Conferences/2009/past.html",
+      "archive_entry": "5 1988 Ann Arbor, Michigan, USA Available",
+      "original_proceedings": "http://www.informatik.uni-trier.de/%7Eley/db/conf/icml/ml1988.html",
+      "figures": 0
+    },
+    {
+      "year": 1989,
+      "url": "https://icml.cc/Conferences/2009/past.html",
+      "archive_entry": "6 1989 Ithaca, New York, USA Available",
+      "original_proceedings": "http://www.informatik.uni-trier.de/%7Eley/db/conf/icml/ml1989.html",
+      "figures": 0
+    },
+    {
+      "year": 1990,
+      "url": "https://icml.cc/Conferences/2009/past.html",
+      "archive_entry": "7 1990 Austin, Texas, USA Available",
+      "original_proceedings": "http://www.informatik.uni-trier.de/%7Eley/db/conf/icml/ml1990.html",
+      "figures": 0
+    },
+    {
+      "year": 1991,
+      "url": "https://icml.cc/Conferences/2009/past.html",
+      "archive_entry": "8 1991 Evanston, Illinois, USA Available",
+      "original_proceedings": "http://www.informatik.uni-trier.de/%7Eley/db/conf/icml/ml1991.html",
+      "figures": 0
+    },
+    {
+      "year": 1992,
+      "url": "https://icml.cc/Conferences/2009/past.html",
+      "archive_entry": "9 1992 Aberdeen, Scotland, UK Available",
+      "original_proceedings": "http://www.informatik.uni-trier.de/%7Eley/db/conf/icml/ml1992.html",
+      "figures": 0
+    },
+    {
+      "year": 1993,
+      "url": "https://icml.cc/Conferences/2009/past.html",
+      "archive_entry": "10 1993 Amherst, Massachusetts, USA Available",
+      "original_proceedings": "http://www.informatik.uni-trier.de/%7Eley/db/conf/icml/icml1993.html",
+      "figures": 0
+    },
+    {
+      "year": 1994,
+      "url": "https://icml.cc/Conferences/2009/past.html",
+      "archive_entry": "11 1994 New Brunswick, New Jersey, USA Available",
+      "original_proceedings": "http://www.informatik.uni-trier.de/%7Eley/db/conf/icml/icml1994.html",
+      "figures": 0
+    },
+    {
+      "year": 1995,
+      "url": "https://icml.cc/Conferences/2009/past.html",
+      "archive_entry": "12 1995 Tahoe City, California, USA Available",
+      "original_proceedings": "http://www.informatik.uni-trier.de/%7Eley/db/conf/icml/icml1995.html",
+      "figures": 0
+    },
+    {
+      "year": 1996,
+      "url": "https://icml.cc/Conferences/2009/past.html",
+      "archive_entry": "13 1996 Bari,  Italy Available",
+      "original_proceedings": "http://www.informatik.uni-trier.de/%7Eley/db/conf/icml/icml1996.html",
+      "figures": 0
+    },
+    {
+      "year": 1997,
+      "url": "https://icml.cc/Conferences/2009/past.html",
+      "archive_entry": "14 1997 Nashville, Tennessee, USA Available",
+      "original_proceedings": "http://www.informatik.uni-trier.de/%7Eley/db/conf/icml/icml1997.html",
+      "figures": 0
+    },
+    {
+      "year": 1998,
+      "url": "https://icml.cc/Conferences/2009/past.html",
+      "archive_entry": "15 1998 Madison, Wisconsin,  USA Available",
+      "original_proceedings": "http://www.informatik.uni-trier.de/%7Eley/db/conf/icml/icml1998.html",
+      "figures": 0
+    },
+    {
+      "year": 1999,
+      "url": "https://icml.cc/Conferences/2009/past.html",
+      "archive_entry": "16 1999 Bled, Slovenia Available",
+      "original_proceedings": "http://www.informatik.uni-trier.de/%7Eley/db/conf/icml/icml1999.html",
+      "figures": 0
+    },
+    {
+      "year": 2000,
+      "url": "https://icml.cc/Conferences/2009/past.html",
+      "archive_entry": "17 2000 Stanford,  California, USA Available",
+      "original_proceedings": "http://www.informatik.uni-trier.de/%7Eley/db/conf/icml/icml2000.html",
+      "figures": 0
+    },
+    {
+      "year": 2001,
+      "url": "https://icml.cc/Conferences/2009/past.html",
+      "archive_entry": "18 2001 Williamstown,  Massachusetts, USA Available",
+      "original_proceedings": "http://www.informatik.uni-trier.de/%7Eley/db/conf/icml/icml2001.html",
+      "figures": 0
+    },
+    {
+      "year": 2002,
+      "url": "https://icml.cc/Conferences/2009/past.html",
+      "archive_entry": "19 2002 Sydney  Australia Available",
+      "original_proceedings": "http://www.informatik.uni-trier.de/%7Eley/db/conf/icml/icml2002.html",
+      "figures": 0
+    },
+    {
+      "year": 2003,
+      "url": "https://icml.cc/Conferences/2009/past.html",
+      "archive_entry": "20 2003 Washington  DC, USA Available",
+      "original_proceedings": "http://www.informatik.uni-trier.de/%7Eley/db/conf/icml/icml2003.html",
+      "figures": 0
+    },
+    {
+      "year": 2004,
+      "url": "https://icml.cc/Conferences/2009/past.html",
+      "archive_entry": "21 2004 Banff,  Alberta, Canada Available",
+      "original_proceedings": "http://www.informatik.uni-trier.de/%7Eley/db/conf/icml/icml2004.html",
+      "figures": 0
+    },
+    {
+      "year": 2005,
+      "url": "https://icml.cc/Conferences/2009/past.html",
+      "archive_entry": "22 2005 Bonn,  Germany Available",
+      "original_proceedings": "http://www.informatik.uni-trier.de/~ley/db/conf/icml/icml2005.html",
+      "figures": 0
+    },
+    {
+      "year": 2006,
+      "url": "https://icml.cc/Conferences/2009/past.html",
+      "archive_entry": "23 2006 Pittsburgh, Pennsylvania, USA Available",
+      "original_proceedings": "http://www.informatik.uni-trier.de/~ley/db/conf/icml/icml2006.html",
+      "figures": 0
+    },
+    {
+      "year": 2007,
+      "url": "https://icml.cc/Conferences/2009/past.html",
+      "archive_entry": "24 2007 Corvallis, Oregon, USA Available",
+      "original_proceedings": "http://www.informatik.uni-trier.de/~ley/db/conf/icml/icml2007.html",
+      "figures": 0
+    },
+    {
+      "year": 2008,
+      "url": "https://icml.cc/Conferences/2009/past.html",
+      "archive_entry": "25 2008 Helsinki, Finland Available",
+      "original_proceedings": "http://icml2008.cs.helsinki.fi/proceedings.shtml",
+      "figures": 1
+    },
+    {
+      "year": 2009,
+      "url": "https://icml.cc/Conferences/2009/abstracts.html",
+      "figures": 0
+    },
+    {
+      "year": 2010,
+      "url": "https://icml.cc/Conferences/2010/proceedings.html",
+      "figures": 0
+    },
+    {
+      "year": 2011,
+      "url": "https://icml.cc/2011/papers.php.html",
+      "figures": 0
+    },
+    {
+      "year": 2012,
+      "url": "https://icml.cc/2012/papers.1.html",
+      "figures": 1
+    },
+    {
+      "year": 2013,
+      "url": "https://proceedings.mlr.press/v28/",
+      "count": 283,
+      "figures": 1
+    },
+    {
+      "year": 2014,
+      "url": "https://proceedings.mlr.press/v32/",
+      "count": 310,
+      "figures": 2
+    },
+    {
+      "year": 2015,
+      "url": "https://proceedings.mlr.press/v37/",
+      "count": 270,
+      "figures": 1
+    },
+    {
+      "year": 2016,
+      "url": "https://proceedings.mlr.press/v48/",
+      "count": 322,
+      "figures": 3
+    },
+    {
+      "year": 2017,
+      "url": "https://proceedings.mlr.press/v70/",
+      "count": 434,
+      "figures": 1
+    },
+    {
+      "year": 2018,
+      "url": "https://proceedings.mlr.press/v80/",
+      "count": 621,
+      "figures": 2
+    },
+    {
+      "year": 2019,
+      "url": "https://proceedings.mlr.press/v97/",
+      "count": 773,
+      "figures": 4
+    },
+    {
+      "year": 2020,
+      "url": "https://proceedings.mlr.press/v119/",
+      "count": 1084,
+      "figures": 4
+    },
+    {
+      "year": 2021,
+      "url": "https://proceedings.mlr.press/v139/",
+      "count": 1183,
+      "figures": 2
+    },
+    {
+      "year": 2022,
+      "url": "https://proceedings.mlr.press/v162/",
+      "count": 1233,
+      "figures": 2
+    },
+    {
+      "year": 2023,
+      "url": "https://proceedings.mlr.press/v202/",
+      "count": 1828,
+      "figures": 31
+    },
+    {
+      "year": 2024,
+      "url": "https://proceedings.mlr.press/v235/",
+      "count": 2610,
+      "figures": 67
+    },
+    {
+      "year": 2025,
+      "url": "https://proceedings.mlr.press/v267/",
+      "count": 3330,
+      "figures": 109
+    },
+    {
+      "year": 2026,
+      "url": "https://proceedings.mlr.press/v306/",
+      "count": 6552,
+      "figures": 156
+    }
+  ],
+  "guide": [
+    {
+      "title": "先看这 4 张：信息密度与主线",
+      "text": "观察从输入到输出的顺序，再看细节放在哪里。",
+      "ids": [
+        "icml2024-0273",
+        "classic-2019-gao19a-f1",
+        "classic-2020-sanchez-gonzalez20a-f2",
+        "classic-2021-radford21a-f1"
+      ]
+    },
+    {
+      "title": "表达通用性：统一接口与抽象表示",
+      "text": "让多种来源汇入统一表示；用数组、候选集和结构化对象表达输入输出。",
+      "ids": [
+        "classic-2021-jaegle21a-f1",
+        "icml2024-1074",
+        "icml2026-1506",
+        "icml2023-02"
+      ]
+    },
+    {
+      "title": "增加细节：展开选择与重组机制",
+      "text": "把候选、评分、相互作用和选择结果画出来；中间态承担解释。",
+      "ids": [
+        "classic-2019-gao19a-f1",
+        "icml2023-0714",
+        "icml2026-0327",
+        "icml2025-1359"
+      ]
+    },
+    {
+      "title": "布局与配色：总览加局部展开",
+      "text": "主流程横向贯通，关键模块在下方展开；浅蓝、浅橙与浅紫区分角色。",
+      "ids": [
+        "icml2024-0183",
+        "icml2025-0972",
+        "icml2023-0042",
+        "icml2024-1707"
+      ]
+    }
+  ],
+  "coverage": "图像覆盖 <strong>2008-2026 年间的 16 个年份</strong>，共 387 张原论文图例，其中 50 张逐图精选并附设计提示。近年扩展图集来自 Top-Conf Figure Gallery 的流程、架构、框架、概念与对照分类，共 363 张；这些论文的标题均已匹配到 PMLR 正式目录。历届入口覆盖 1980-2026 年的 43 届会议；2013-2026 年目录条目数依据 PMLR 正式论文集统计。"
+}

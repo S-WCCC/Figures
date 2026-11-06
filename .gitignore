@@ -1,0 +1,9 @@
+_site/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+*.pdf
+.env
+.env.*
+!.env.example

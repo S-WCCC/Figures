@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="科研绘图参考库：按年份和类型浏览论文原图，放大、收藏、比较并维护共同选集。">
+  <title>Figures · 科研绘图参考库</title>
+  <link rel="stylesheet" href="assets/gallery.css">
+  <script src="assets/gallery.js" defer></script>
+</head>
+<body>
+<header>
+  <div class="eyebrow">FIGURES / RESEARCH VISUAL LIBRARY</div>
+  <h1>科研绘图参考库</h1>
+  <p>浏览原图、比较表达方式、一起整理参考。</p>
+  <div class="stats" id="stats"></div>
+  <div class="toplinks">
+    <a href="https://github.com/S-WCCC/Figures" target="_blank" rel="noopener">GitHub 仓库</a>
+    <a href="https://github.com/S-WCCC/Figures/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">增补与维护</a>
+    <a href="data/figures.json" target="_blank">图片索引 JSON</a>
+    <a href="figure_index.csv" download>图片索引 CSV</a>
+    <a href="https://github.com/S-WCCC/Figures/blob/main/SOURCES.md" target="_blank" rel="noopener">图片来源</a>
+  </div>
+</header>
+<main class="shell">
+  <nav class="nav" aria-label="内容导航">
+    <button data-tab="gallery" class="active">参考图集</button>
+    <button data-tab="history">历届目录</button>
+    <button data-tab="guide">参考路线</button>
+  </nav>
+  <div id="error" class="error hidden" role="alert"></div>
+  <section id="galleryTab">
+    <div class="controls">
+      <select id="scope" aria-label="图集范围">
+        <option value="featured">精选参考</option><option value="all">全部图集</option>
+        <option value="favorites">我的收藏</option><option value="selected">当前选择</option>
+      </select>
+      <input id="search" type="search" placeholder="搜索标题、作者、编号或设计提示" aria-label="搜索图片">
+      <select id="venue" aria-label="会议或来源"><option value="all">所有来源</option></select>
+      <select id="year" aria-label="年份"><option value="all">所有年份</option></select>
+      <select id="pattern" aria-label="图形类型">
+        <option value="all">所有类型</option><option value="pipeline">处理流程</option>
+        <option value="architecture">模型架构</option><option value="framework">系统框架</option>
+        <option value="conceptual">概念与机制</option><option value="comparison">方法对照</option>
+      </select>
+      <select id="sort" aria-label="排序"><option value="recommended">推荐顺序</option><option value="newest">年份：新到旧</option><option value="oldest">年份：旧到新</option></select>
+    </div>
+    <div class="count"><span id="resultCount">正在加载图集…</span><div class="toolbar-actions">
+      <button id="compareButton" disabled>并排比较（0/4）</button>
+      <button id="shareSelection" disabled>分享选择</button>
+      <button id="exportSelection" disabled>导出选择</button>
+      <button id="clearSelection" disabled>清空选择</button>
+    </div></div>
+    <div class="status" id="status" role="status" aria-live="polite"></div>
+    <div class="gallery" id="cards"></div>
+    <button id="more" class="loadmore hidden">显示更多</button>
+  </section>
+  <section id="historyTab" class="hidden">
+    <div class="hint">按届浏览 ICML 正式会议入口。2013—2026 年条目数来自 PMLR 正式目录；早期届次沿 ICML 历史档案列出。</div>
+    <div class="historygrid" id="years"></div><div class="coverage" id="coverage"></div>
+  </section>
+  <section id="guideTab" class="hidden"><div class="guide" id="guide"></div></section>
+  <footer>原图作者与来源见图片索引。近年裁图来自 <a href="https://github.com/qwdwqfwq/topconf-paper-figure-gallery" target="_blank" rel="noopener">Top-Conf Figure Gallery</a>，论文信息与 <a href="https://proceedings.mlr.press/" target="_blank" rel="noopener">PMLR</a> 匹配。共同选集随仓库提交更新；个人收藏保存在当前浏览器。<span id="updated"></span></footer>
+</main>
+<dialog id="zoom" aria-labelledby="zoomTitle">
+  <div class="modalhead"><div><h2 id="zoomTitle"></h2><div id="zoomMeta"></div><div class="modal-links" id="zoomLinks"></div></div>
+    <div class="actions"><button id="prev" aria-label="上一张">←</button><button id="next" aria-label="下一张">→</button><button id="closeZoom">关闭</button></div>
+  </div>
+  <img id="zoomImage" alt="参考原图"><div class="modalnote" id="zoomNote"></div><div class="image-id" id="zoomId"></div>
+</dialog>
+<dialog id="compare" aria-labelledby="compareTitle"><div class="modalhead"><h2 id="compareTitle">并排比较</h2><button id="closeCompare">关闭</button></div><div class="comparegrid" id="compareGrid"></div></dialog>
+<dialog id="share" aria-labelledby="shareTitle"><div class="modalhead"><h2 id="shareTitle">分享图片链接</h2><button id="closeShare">关闭</button></div><p>复制链接后，同学可以打开相同的图片或选择。</p><input id="shareUrl" readonly aria-label="分享链接"><p id="shareStatus" role="status"></p><button id="copyShare">复制链接</button></dialog>
+</body>
+</html>
